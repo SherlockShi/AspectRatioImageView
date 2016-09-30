@@ -1,7 +1,7 @@
 #AspectRatioImageView  
 宽高比可以自由设置的ImageView(默认为3:2)
 
-# Document
+# 文档
 [English](./README.md)  
 [中文](./README_cn.md)
 
