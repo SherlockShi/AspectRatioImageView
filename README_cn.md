@@ -39,8 +39,8 @@ dependencies {
 ```
 
 ### 属性
-AspectRatioImageView有以下两个属性:
-`width_ratio`: 宽度比例, 类型为integer
-`height_ratio`: 高度比例, 类型为integer
+AspectRatioImageView有以下两个属性:  
+`width_ratio`: 宽度比例, 类型为integer  
+`height_ratio`: 高度比例, 类型为integer  
 
 > 只要有一个属性未设置，就会使用默认比例3:2.

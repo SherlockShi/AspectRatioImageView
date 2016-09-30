@@ -40,8 +40,8 @@ use in xml files, just as an ImageView:
 ```
 
 ### Attributes
-AspectRatioImageView has two attributes:
-`width_ratio`: Width ratio, type: integer
-`height_ratio`: Height ratio, type: integer
+AspectRatioImageView has two attributes:  
+`width_ratio`: Width ratio, type: integer  
+`height_ratio`: Height ratio, type: integer  
 
 > As long as there is an attribute is not set, the ImageView will use default 3:2 aspect ratio.
