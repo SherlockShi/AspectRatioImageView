@@ -6,7 +6,7 @@
 [中文](./README_cn.md)
 
 # 截图
-<img src="http://7xlpfl.com1.z0.glb.clouddn.com/16-9-30/34474159.jpg" width="200" height="400" alt="AspectRatioImageView"/>
+<img src="http://7xlpfl.com1.z0.glb.clouddn.com/16-9-30/83520279.jpg" width="200" height="400" alt="AspectRatioImageView"/>
 
 # 依赖
 使用gradle依赖:

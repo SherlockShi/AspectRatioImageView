@@ -6,7 +6,7 @@ An ImageView which you can set the aspect ratio freely (default is 3:2).
 [中文](./README_cn.md)
 
 # Screenshot
-<img src="http://7xlpfl.com1.z0.glb.clouddn.com/16-9-30/34474159.jpg" width="200" height="400" alt="AspectRatioImageView"/>
+<img src="http://7xlpfl.com1.z0.glb.clouddn.com/16-9-30/83520279.jpg" width="200" height="400" alt="AspectRatioImageView"/>
 
 # Dependency
 By gradle:
