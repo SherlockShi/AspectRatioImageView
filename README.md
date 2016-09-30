@@ -27,7 +27,7 @@ or by Maven:
 ```
 
 
-### Usage
+# Usage
 use in xml files, just as an ImageView:
 ```xml
 <com.sherlockshi.widget.AspectRatioImageView
@@ -39,7 +39,7 @@ use in xml files, just as an ImageView:
     android:src="..."/>
 ```
 
-### Attributes
+# Attributes
 AspectRatioImageView has two attributes:  
 `width_ratio`: Width ratio, type: integer  
 `height_ratio`: Height ratio, type: integer  

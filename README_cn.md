@@ -38,7 +38,7 @@ dependencies {
     android:src="..."/>
 ```
 
-### 属性
+# 属性
 AspectRatioImageView有以下两个属性:  
 `width_ratio`: 宽度比例, 类型为integer  
 `height_ratio`: 高度比例, 类型为integer  
