@@ -44,6 +44,24 @@ public class AspectRatioImageView extends ImageView {
         }
     }
 
+    /**
+     * Sets width ratio.
+     *
+     * @param widthRatio the width ratio
+     */
+    public void setWidthRatio(int widthRatio) {
+        this.widthRatio = widthRatio;
+    }
+
+    /**
+     * Sets height ratio.
+     *
+     * @param heightRatio the height ratio
+     */
+    public void setHeightRatio(int heightRatio) {
+        this.heightRatio = heightRatio;
+    }
+
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         int height = MeasureSpec.getSize(widthMeasureSpec) * heightRatio / widthRatio;

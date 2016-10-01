@@ -44,3 +44,8 @@ captures/
 app/build/
 .DS_Store
 /captures
+
+# bintray
+aspectratioimageview/bintrayUpload.gradle
+aspectratioimageview/project.properties
+aspectratioimageview/pom.xml

@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
     android:orientation="vertical">
 
-    <com.sherlockshi.widget.AspectRatioImageView
+    <Button
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:scaleType="centerCrop"
-        app:width_ratio="4"
-        app:height_ratio="2"
-        android:src="@drawable/material_design_wallpaper"/>
+        android:layout_height="wrap_content"
+        android:text="Use XML"
+        android:textAllCaps="false"
+        android:onClick="jumpToXmlActivity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Use XML and Code"
+        android:textAllCaps="false"
+        android:onClick="jumpToXmlAndCodeActivity"/>
 </LinearLayout>

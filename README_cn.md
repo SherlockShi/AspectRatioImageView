@@ -1,4 +1,6 @@
 #AspectRatioImageView  
+[ ![Download](https://api.bintray.com/packages/sherlockshi/android-widgets/AspectRatioImageView/images/download.svg) ](https://bintray.com/sherlockshi/android-widgets/AspectRatioImageView/_latestVersion)
+
 宽高比可以自由设置的ImageView(默认为3:2)
 
 # 文档
@@ -23,6 +25,7 @@ dependencies {
   <groupId>com.sherlockshi.widget</groupId>
   <artifactId>aspectratioimageview</artifactId>
   <version>1.0.1</version>
+  <type>pom</type>
 </dependency>
 ```
 

@@ -15,6 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name="com.sherlockshi.widget.XmlActivity"/>
+        <activity android:name="com.sherlockshi.widget.XmlAndCodeActivity"/>
     </application>
 
 </manifest>

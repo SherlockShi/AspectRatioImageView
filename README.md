@@ -1,4 +1,6 @@
 #AspectRatioImageView  
+[ ![Download](https://api.bintray.com/packages/sherlockshi/android-widgets/AspectRatioImageView/images/download.svg) ](https://bintray.com/sherlockshi/android-widgets/AspectRatioImageView/_latestVersion)
+
 An ImageView which you can set the aspect ratio freely (default is 3:2).
 
 # Document
@@ -23,6 +25,7 @@ or by Maven:
   <groupId>com.sherlockshi.widget</groupId>
   <artifactId>aspectratioimageview</artifactId>
   <version>1.0.1</version>
+  <type>pom</type>
 </dependency>
 ```
 
