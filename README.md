@@ -4,7 +4,7 @@
 An ImageView which you can set the aspect ratio freely (default is 3:2).
 
 # Document
-[English](./README.md)  
+English  
 [中文](./README_cn.md)
 
 # Screenshot
