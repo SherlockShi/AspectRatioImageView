@@ -11,7 +11,7 @@
 <img src="http://7xlpfl.com1.z0.glb.clouddn.com/16-9-30/83520279.jpg" width="200" height="400" alt="AspectRatioImageView"/>
 
 # 依赖
-使用gradle依赖:
+使用Gradle依赖:
 ```groovy
 dependencies {
     ...
@@ -30,7 +30,7 @@ dependencies {
 ```
 
 # 用法
-像使用ImageView一样,在XML文件中使用:
+像使用ImageView一样，在XML文件中使用:
 ```xml
 <com.sherlockshi.widget.AspectRatioImageView
     android:layout_width="match_parent"
@@ -43,10 +43,10 @@ dependencies {
 
 # 属性
 AspectRatioImageView有以下两个属性:  
-`width_ratio`: 宽度比例, 类型为integer  
-`height_ratio`: 高度比例, 类型为integer  
+`width_ratio`: 宽度比例值，类型为integer  
+`height_ratio`: 高度比例值，类型为integer  
 
-> 只要有一个属性未设置，就会使用默认比例3:2.
+> 以上两个属性，只要有一个属性未设置，就会使用默认比例3:2.
 
 # License
 ```

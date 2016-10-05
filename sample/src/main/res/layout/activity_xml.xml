@@ -5,6 +5,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <!-- ShowCase 1 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="1. Width = match_parent"/>
+
     <com.sherlockshi.widget.AspectRatioImageView
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -12,4 +19,39 @@
         app:width_ratio="4"
         app:height_ratio="2"
         android:src="@drawable/material_design_wallpaper"/>
+
+    <!-- ShowCase 2 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="2. Width = 0dp; Weight = 1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <com.sherlockshi.widget.AspectRatioImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:src="@drawable/material_design_wallpaper"/>
+
+        <com.sherlockshi.widget.AspectRatioImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/material_design_wallpaper"/>
+
+        <com.sherlockshi.widget.AspectRatioImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/material_design_wallpaper"/>
+    </LinearLayout>
 </LinearLayout>

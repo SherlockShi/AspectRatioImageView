@@ -11,7 +11,7 @@ English
 <img src="http://7xlpfl.com1.z0.glb.clouddn.com/16-9-30/83520279.jpg" width="200" height="400" alt="AspectRatioImageView"/>
 
 # Dependency
-By gradle:
+By Gradle:
 ```groovy
 dependencies {
     ...
